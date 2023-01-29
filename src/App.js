@@ -151,9 +151,8 @@ function App() {
 
   return (
     <div className="App">
-      <div>Hello</div>
       {generateTree(mainTree, prevObj, openObj, false, selectedIDs)}
-      <button onClick={handleClick}>Search</button>
+      <button onClick={handleClick}>Searching</button>
     </div>
   );
 }
